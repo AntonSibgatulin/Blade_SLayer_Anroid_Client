@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name">Blade Slayer </string>
+    <!-- TODO: Remove or change this placeholder text -->
+
+
+    <string name="ASQUIRED_LEVEL">Acquired level</string>
+    <string name="BUTTON_BUY_FOR">Buy</string>
+    <string name="BUTTON_BUY_FOR_MONEY">Buy for money</string>
+    <string name="BUTTON_CLOSE">Close</string>
+    <string name="BUTTON_CREATE">Create</string>
+    <string name="BUTTON_LEVEL">Level</string>
+    <string name="BUTTON_LOCATION">locations</string>
+    <string name="BUTTON_LOGIN">Log in</string>
+    <string name="BUTTON_MULTIPLAY">Multiplayer</string>
+    <string name="BUTTON_PAUSE">Pause</string>
+    <string name="BUTTON_PLAY">Play</string>
+    <string name="BUTTON_RESUME">Resume</string>
+    <string name="BUTTON_UPGRADE">Improve</string>
+    <string name="INPUT_LOGIN">Login</string>
+    <string name="INPUT_LOGIN_REG">Create a login</string>
+    <string name="INPUT_PASSWORD">Password</string>
+    <string name="INPUT_PASSWORD_REG">Create a password</string>
+    <string name="INVALID_DATA">Incorrect username or password !</string>
+    <string name="MAX_LEVEL">Maximum level</string>
+    <string name="PURCHASE_SUCC">Purchase was successful</string>
+    <string name="SHOP">Shop</string>
+    <string name="TEXT_COUNT">Count</string>
+    <string name="TEXT_ENERGY">Energy</string>
+    <string name="TEXT_EXIT">Exit</string>
+    <string name="TEXT_HEALTH">Health</string>
+    <string name="TEXT_JUMP">Jump</string>
+    <string name="TEXT_LOADING">Loading</string>
+    <string name="TEXT_LOGIN">Authorization</string>
+    <string name="TEXT_MAGICKEY">MagicCard</string>
+    <string name="TEXT_MONEY">Money</string>
+    <string name="TEXT_NO">NO</string>
+    <string name="TEXT_POWER">Strength</string>
+    <string name="TEXT_PRICE">Price</string>
+    <string name="TEXT_REG">Registration</string>
+    <string name="TEXT_RUNDIST">Running distance</string>
+    <string name="TEXT_SCORE">Score</string>
+    <string name="TEXT_SPEED">Speed</string>
+    <string name="TEXT_TASK">Task</string>
+    <string name="TEXT_TASK_ON_DISTANCE">Task for distance training.</string>
+    <string name="TEXT_TRAIN">coach</string>
+    <string name="TEXT_VELOCITY_OF_RECOVERY">Velocity of recovery</string>
+    <string name="TEXT_YES">Yes</string>
+
+    <string name="TEXT_LEFT">LEFT</string>
+    <string name="TEXT_RIGHT">RIGHT</string>
+    <string name="TEXT_FIRE">Fire</string>
+    <string name="TEXT_ON">On</string>
+
+    <string name="TEXT_OFF">Off</string>
+
+
+    <string name="TEXT_MINIMAL_RANG">Minimal rang</string>
+    <string name="PRICE_FOR_IT">Price for it</string>
+    <string name="TEXT_LEVEL_UP">Level up to</string>
+
+    <string name="HELP">HELP</string>
+
+
+    <string name="USER_ALREADY_EXIST">The user has already been created!</string>
+    <string name="INCORRECT_PASSWORD_OR_LOGIN">Incorrect login or password!</string>
+
+    <string name="CAPTCHA_NOT_CORRECT">Captcha entered incorrectly!</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

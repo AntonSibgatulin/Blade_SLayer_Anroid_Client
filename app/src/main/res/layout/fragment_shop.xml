@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#faebd7"
+    tools:context=".UpgradeFragment">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/shop_elements"
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_alignParentBottom="true">
+
+                <View
+                    android:id="@+id/view3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="65dp"
+                    android:background="@drawable/panels" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:fontFamily="@font/italic"
+                    android:text="@string/SHOP"
+                    android:textColor="@color/black"
+                    android:textFontWeight="800"
+
+                    android:textSize="30dp">
+
+                </TextView>
+
+                <Button
+                    android:id="@+id/close_shop_button"
+                    android:layout_width="wrap_content"
+
+                    android:layout_height="match_parent"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginBottom="2dp"
+
+                    android:background="@drawable/buttons"
+                    android:fontFamily="@font/italic"
+                    android:text="@string/BUTTON_CLOSE"
+                    android:textColor="@color/white"
+
+                    app:backgroundTint="@color/buttons">
+
+                </Button>
+
+
+            </RelativeLayout>
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</RelativeLayout>

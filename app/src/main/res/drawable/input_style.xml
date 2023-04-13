@@ -1,0 +1,10 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle" android:padding="10dp">
+    <solid android:color="@color/input_type_text"/>
+    <stroke android:width="1dip" android:color="@color/black" />
+    <corners
+        android:bottomRightRadius="@dimen/radius_input"
+        android:bottomLeftRadius="@dimen/radius_input"
+        android:topLeftRadius="@dimen/radius_input"
+        android:topRightRadius="@dimen/radius_input"/>
+</shape>

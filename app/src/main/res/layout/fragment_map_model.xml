@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".battle.MapModelFragment">
+
+    <RelativeLayout
+        android:id="@+id/PlaceForGame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".3">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="50dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginBottom="60dp">
+
+                        <ImageButton
+                            android:id="@+id/left_button"
+                            android:layout_width="@dimen/round_button_size"
+                            android:layout_height="@dimen/round_button_size"
+
+                            android:layout_alignParentLeft="true"
+                            android:layout_marginLeft="5dp"
+                            android:padding="10dp"
+                            android:background="@drawable/buttonofmapmain"
+                            android:scaleType="centerInside"
+                            android:src="@drawable/left"
+
+                            >
+
+                        </ImageButton>
+
+
+                        <ImageButton
+                            android:id="@+id/right_button"
+                            android:layout_width="@dimen/round_button_size"
+                            android:layout_height="@dimen/round_button_size"
+
+                            android:layout_alignParentLeft="true"
+                            android:layout_marginLeft="5dp"
+                            android:padding="10dp"
+                            android:background="@drawable/buttonofmapmain"
+                            android:scaleType="centerInside"
+                            android:src="@drawable/right">
+
+                        </ImageButton>
+                    </LinearLayout>
+
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".25">
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".3"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_above="@+id/panel_button"
+                        android:layout_marginBottom="25dp">
+
+                        <LinearLayout
+                            android:layout_width="204dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.9">
+
+                        </LinearLayout>
+
+                        <LinearLayout
+
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.5">
+
+                            <ScrollView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+                                <LinearLayout
+                                    android:id="@+id/styles"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical"></LinearLayout>
+                            </ScrollView>
+                        </LinearLayout>
+                    </LinearLayout>
+
+
+
+                    <LinearLayout
+                        android:id="@+id/panel_buttons_change_style"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerHorizontal="true"
+                        android:gravity="center"
+                        android:layout_marginBottom="@dimen/bottom_button_size">
+
+                        <ImageButton
+                            android:id="@+id/left"
+                            android:layout_width="@dimen/small_round_button_size"
+                            android:layout_height="@dimen/small_round_button_size"
+                            android:layout_alignTop="@+id/jump_button"
+                            android:layout_toEndOf="@+id/jump_button"
+                            android:background="@drawable/buttonofmapmain"
+                            android:layout_marginRight="10dp"
+                            android:fontFamily="@font/italic"
+
+
+                            android:padding="10dp"
+                            android:scaleType="centerInside"
+                            android:src="@drawable/left"
+
+                            >
+
+                        </ImageButton>
+
+                        <TextView
+                            android:id="@+id/num"
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:layout_alignTop="@+id/jump_button"
+                            android:layout_toEndOf="@+id/jump_button"
+                            android:background="@drawable/buttonofmapmain"
+                            android:layout_marginRight="10dp"
+
+                         android:text="3"
+                            android:gravity="center"
+                            android:textSize="24dp"
+                            android:textFontWeight="900"
+                            android:padding="10dp"
+                            android:textColor="@color/black"
+                            android:scaleType="centerInside"
+                            android:src="@drawable/left"
+
+                            >
+
+                        </TextView>
+
+                        <ImageButton
+                            android:id="@+id/right"
+                            android:layout_width="@dimen/small_round_button_size"
+
+                            android:layout_height="@dimen/small_round_button_size"
+
+                            android:adjustViewBounds="true"
+                            android:background="@drawable/buttonofmapmain"
+                            android:fontFamily="@font/italic"
+                            android:padding="10dp"
+                            android:scaleType="fitCenter"
+                            android:src="@drawable/right"
+                            android:text="@string/TEXT_FIRE">
+
+                        </ImageButton>
+
+                    </LinearLayout>
+
+
+
+
+
+                    <LinearLayout
+                        android:id="@+id/panel_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginBottom="85dp">
+
+                        <ImageButton
+                            android:id="@+id/speed"
+                            android:layout_width="@dimen/round_button_size"
+                            android:layout_height="@dimen/round_button_size"
+                            android:layout_alignTop="@+id/jump_button"
+                            android:layout_toEndOf="@+id/jump_button"
+                            android:background="@drawable/buttonofmapmain"
+                            android:layout_marginRight="50dp"
+                            android:fontFamily="@font/italic"
+
+
+                            android:padding="20dp"
+                            android:scaleType="centerInside"
+                            android:src="@drawable/superpower"
+
+                            >
+
+                        </ImageButton>
+
+                        <ImageButton
+                            android:id="@+id/fire_button"
+                            android:layout_width="@dimen/round_button_size"
+
+                            android:layout_height="@dimen/round_button_size"
+
+                            android:adjustViewBounds="true"
+                            android:background="@drawable/buttonofmapmain"
+                            android:fontFamily="@font/italic"
+                            android:padding="20dp"
+                            android:scaleType="fitCenter"
+                            android:src="@drawable/fire"
+                            android:text="@string/TEXT_FIRE">
+
+                        </ImageButton>
+
+                    </LinearLayout>
+
+                    <ImageButton
+                        android:id="@+id/jump_button"
+                        android:layout_width="@dimen/round_button_size"
+                        android:layout_height="@dimen/round_button_size"
+
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@drawable/buttonofmapmain"
+                        android:padding="20dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/jump"
+
+
+                        >
+
+                    </ImageButton>
+                </RelativeLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/exit_button"
+
+            android:layout_width="wrap_content"
+            android:layout_height="55dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/buttons"
+            android:fontFamily="@font/italic"
+            android:minWidth="150dp"
+
+            android:text="@string/TEXT_EXIT"
+            android:textColor="@color/white"
+            app:backgroundTint="@color/buttons"
+
+
+            >
+
+        </Button>
+
+        <Button
+            android:id="@+id/pause_button"
+            android:layout_width="wrap_content"
+            android:layout_height="55dp"
+            android:layout_above="@+id/exit_button"
+
+
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/buttons"
+
+            android:fontFamily="@font/italic"
+            android:minWidth="150dp"
+            android:text="@string/BUTTON_RESUME"
+
+
+            android:textColor="@color/white"
+            app:backgroundTint="@color/buttons">
+
+        </Button>
+
+
+        <TextView
+            android:id="@+id/fps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="15dp"
+            android:text="fps: " />
+
+        <TextView
+            android:id="@+id/ping"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/fps"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="1dp"
+            android:text="Ping: " />
+    </RelativeLayout>
+</FrameLayout>

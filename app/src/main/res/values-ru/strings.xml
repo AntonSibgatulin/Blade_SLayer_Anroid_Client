@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Клинок, рассекающий демонов</string>
+
+
+
+    <string name="ASQUIRED_LEVEL">Приобретенный уровень</string>
+    <string name="BUTTON_BUY_FOR">Купить</string>
+    <string name="BUTTON_BUY_FOR_MONEY">Купить за деньги</string>
+    <string name="BUTTON_CLOSE">Закрыть</string>
+    <string name="BUTTON_CREATE">Создать</string>
+    <string name="BUTTON_LEVEL">Уровень</string>
+    <string name="BUTTON_LOCATION">места</string>
+    <string name="BUTTON_LOGIN">Войти</string>
+    <string name="BUTTON_MULTIPLAY">Мультиплеер</string>
+    <string name="BUTTON_PAUSE">Пауза</string>
+    <string name="BUTTON_PLAY">Играть</string>
+    <string name="BUTTON_RESUME">Возобновить</string>
+    <string name="BUTTON_UPGRADE">Улучшить</string>
+    <string name="INPUT_LOGIN">Войти</string>
+    <string name="INPUT_LOGIN_REG">Создайте логин</string>
+    <string name="INPUT_PASSWORD">Пароль</string>
+    <string name="INPUT_PASSWORD_REG">Создайте пароль</string>
+    <string name="INVALID_DATA">Неверное имя пользователя или пароль!</string>
+    <string name="MAX_LEVEL">Максимальный уровень</string>
+    <string name="PURCHASE_SUCC">Покупка прошла успешно</string>
+    <string name="SHOP">Магазин</string>
+    <string name="TEXT_COUNT">Количество</string>
+    <string name="TEXT_ENERGY">Энергия</string>
+    <string name="TEXT_EXIT">Выход</string>
+    <string name="TEXT_HEALTH">Здоровье</string>
+    <string name="TEXT_JUMP">Прыжок</string>
+    <string name="TEXT_LOADING">Загружается</string>
+    <string name="TEXT_LOGIN">Авторизация</string>
+    <string name="TEXT_MAGICKEY">Маг.Карты</string>
+    <string name="TEXT_MONEY">Деньги</string>
+    <string name="TEXT_NO">Нет</string>
+    <string name="TEXT_POWER">Сила</string>
+    <string name="TEXT_PRICE">Цена</string>
+    <string name="TEXT_REG">Регистрация</string>
+    <string name="TEXT_RUNDIST">Дистанция бега</string>
+    <string name="TEXT_SCORE">Очки</string>
+    <string name="TEXT_SPEED">Скорость</string>
+    <string name="TEXT_TASK">Задание</string>
+    <string name="TEXT_TASK_ON_DISTANCE">Задание для тренировки на прохождение дистанции.</string>
+    <string name="TEXT_TRAIN">Тренировать</string>
+    <string name="TEXT_VELOCITY_OF_RECOVERY">Скорость восстановления</string>
+    <string name="TEXT_YES">Да</string>
+    <string name="TEXT_LEFT">ЛЕВЫЙ</string>
+    <string name="TEXT_RIGHT">ПРАВО</string>
+    <string name="TEXT_FIRE">УДАР</string>
+    <string name="TEXT_ON">ВКЛ</string>
+    <string name="TEXT_OFF">ВЫКЛ</string>
+
+
+
+    <string name="TEXT_MINIMAL_RANG">Минимальный ранг - </string>
+    <string name="PRICE_FOR_IT">Цена за это</string>
+    <string name="TEXT_LEVEL_UP">Уровень до</string>
+    <string name="HELP">Помощь</string>
+    <string name="USER_ALREADY_EXIST">Пользователь уже создан!</string>
+    <string name="INCORRECT_PASSWORD_OR_LOGIN">Неправильно набран логин или пароль!</string>
+    <string name="CAPTCHA_NOT_CORRECT">Капча введена не правильно!</string>
+
+</resources>

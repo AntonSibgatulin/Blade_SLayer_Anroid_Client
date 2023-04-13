@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+
+    >
+
+    <ImageView
+        android:id="@+id/imageView"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/background" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:background="@drawable/tool_bar_gradient"></RelativeLayout>
+    <RelativeLayout
+        android:layout_width="@dimen/width_login"
+        android:layout_height="@dimen/height_login"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        >
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:text="@string/TEXT_REG"
+            android:textColor="@color/auth_word"
+            android:textSize="@dimen/width_tool_text"
+            android:textStyle="bold"
+            android:translationY="20dp" />
+
+        <!--<ImageView
+            android:layout_width="@dimen/width_for_line"
+            android:layout_height="@dimen/height_for_line"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/line"
+
+            />
+-->
+        <EditText
+            android:id="@+id/login_signin"
+
+            android:layout_width="@dimen/width_for_line"
+            android:layout_height="@dimen/height_of_input"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:autofillHints="username"
+            android:background="@drawable/input_style"
+            android:gravity="center"
+
+            android:hint="@string/INPUT_LOGIN_REG"
+            android:inputType="text"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:translationY="@dimen/translation1" />
+
+        <EditText
+            android:id="@+id/password_signin"
+            android:layout_width="@dimen/width_for_line"
+            android:layout_height="@dimen/height_of_input"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:autofillHints="username"
+            android:background="@drawable/input_style"
+            android:gravity="center"
+            android:hint="@string/INPUT_PASSWORD_REG"
+            android:inputType="textPassword"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:translationY="@dimen/translation2" />
+
+        <Button
+
+            android:id="@+id/buttonLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:height="@dimen/height_of_input"
+
+            android:backgroundTint="@color/button_sign_in"
+            android:text="@string/TEXT_REG"
+
+            android:translationY="@dimen/translation3" />
+
+
+
+
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/notification_window"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true">
+
+    </RelativeLayout>
+
+    <Button
+
+        android:id="@+id/btnauth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:height="@dimen/height_of_input"
+
+        android:backgroundTint="@color/button_sign_in"
+        android:text="@string/TEXT_LOGIN"
+        android:layout_centerHorizontal="true"
+
+        />
+</RelativeLayout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Hoja que corta demonios</string>
+    <string name="ASQUIRED_LEVEL">Nivel Adquirido</string>
+    <string name="BUTTON_BUY_FOR_MONEY">Comprar por dinero</string>
+    <string name="BUTTON_BUY_FOR">Comprar</string>
+    <string name="BUTTON_CLOSE">Cerrar</string>
+    <string name="BUTTON_CREATE">Crear</string>
+    <string name="BUTTON_LEVEL">Nivel</string>
+    <string name="BUTTON_LOCATION">lugares</string>
+    <string name="BUTTON_LOGIN">Iniciar sesión</string>
+    <string name="BUTTON_MULTIPLAY">Multijugador</string>
+    <string name="BUTTON_PAUSE">Pausa</string>
+    <string name="BUTTON_PLAY">Reproducir</string>
+    <string name="BUTTON_RESUME">Reanudar</string>
+    <string name="BUTTON_UPGRADE">Actualizar</string>
+    <string name="INPUT_LOGIN">Iniciar sesión</string>
+    <string name="INPUT_LOGIN_REG">Crear un inicio de sesión</string>
+    <string name="INPUT_PASSWORD">Contraseña</string>
+    <string name="INPUT_PASSWORD_REG">Crear una contraseña</string>
+    <string name="INVALID_DATA">¡Usuario o contraseña no válidos!</string>
+    <string name="MAX_LEVEL">Nivel máximo</string>
+    <string name="PURCHASE_SUCC">Compra exitosa</string>
+    <string name="SHOP">Tienda</string>
+    <string name="TEXT_COUNT">Cuenta</string>
+    <string name="TEXT_ENERGY">Energía</string>
+    <string name="TEXT_EXIT">Salir</string>
+    <string name="TEXT_HEALTH">Salud</string>
+    <string name="TEXT_JUMP">Saltar</string>
+    <string name="TEXT_LOADING">Cargando</string>
+    <string name="TEXT_LOGIN">Autorización</string>
+    <string name="TEXT_MAGICKEY">Tarjeta magnética</string>
+    <string name="TEXT_MONEY">Dinero</string>
+    <string name="TEXT_NO">No</string>
+    <string name="TEXT_POWER">Poder</string>
+    <string name="TEXT_PRICE">Precio</string>
+    <string name="TEXT_REG">Registro</string>
+    <string name="TEXT_RUNDIST">Distancia de carrera</string>
+    <string name="TEXT_SCORE">Puntos</string>
+    <string name="TEXT_SPEED">Velocidad</string>
+    <string name="TEXT_TASK">Tarea</string>
+    <string name="TEXT_TASK_ON_DISTANCE">Tarea para entrenamiento a distancia.</string>
+    <string name="TEXT_TRAIN">Tren</string>
+    <string name="TEXT_VELOCITY_OF_RECOVERY">Tasa de recuperación</string>
+    <string name="TEXT_YES">Sí</string>
+    <string name="TEXT_LEFT">IZQUIERDA</string>
+    <string name="TEXT_RIGHT">DERECHO</string>
+    <string name="TEXT_FIRE">FUEGO</string>
+    <string name="TEXT_ON">ENCENDIDO</string>
+    <string name="TEXT_OFF">DESACTIVADO</string>
+
+
+
+    <string name="TEXT_MINIMAL_RANG">Rango mínimo</string>
+    <string name="PRICE_FOR_IT">Precio por eso</string>
+    <string name="TEXT_LEVEL_UP">Subir de nivel a</string>
+    <string name="HELP">Ayuda</string>
+
+    <string name="USER_ALREADY_EXIST">¡El usuario ya fue creado!</string>
+    <string name="INCORRECT_PASSWORD_OR_LOGIN">Inicio de sesión o contraseña incorrectos.</string>
+    <string name="CAPTCHA_NOT_CORRECT">¡Captcha ingresado incorrectamente!</string>
+</resources>

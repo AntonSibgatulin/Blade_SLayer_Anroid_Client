@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">鬼斬の刃</string>
+    <string name="ASQUIRED_LEVEL">取得レベル</string>
+    <string name="BUTTON_BUY_FOR">購入</string>
+    <string name="BUTTON_CLOSE">閉じる</string>
+    <string name="BUTTON_CREATE">作成</string>
+    <string name="BUTTON_LEVEL">レベル</string>
+    <string name="BUTTON_BUY_FOR_MONEY">お金で買う</string>
+    <string name="BUTTON_LOCATION">場所</string>
+    <string name="BUTTON_LOGIN">ログイン</string>
+    <string name="BUTTON_MULTIPLAY">マルチプレイヤー</string>
+    <string name="BUTTON_PAUSE">一時停止</string>
+    <string name="BUTTON_PLAY">再生</string>
+    <string name="BUTTON_RESUME">再開</string>
+    <string name="BUTTON_UPGRADE">アップグレード</string>
+    <string name="INPUT_LOGIN">ログイン</string>
+    <string name="INPUT_LOGIN_REG">ログインを作成する</string>
+    <string name="INPUT_PASSWORD">パスワード</string>
+    <string name="INPUT_PASSWORD_REG">パスワードを作成する</string>
+    <string name="INVALID_DATA">ユーザー名またはパスワードが無効です!</string>
+    <string name="MAX_LEVEL">最大レベル</string>
+    <string name="PURCHASE_SUCC">購入成功</string>
+    <string name="SHOP">ショップ</string>
+    <string name="TEXT_COUNT">カウント</string>
+    <string name="TEXT_ENERGY">エネルギー</string>
+    <string name="TEXT_EXIT">終了</string>
+    <string name="TEXT_HEALTH">健康</string>
+    <string name="TEXT_JUMP">ジャンプ</string>
+    <string name="TEXT_LOADING">読み込み中</string>
+    <string name="TEXT_LOGIN">承認</string>
+    <string name="TEXT_MAGICKEY">マジックカード</string>
+    <string name="TEXT_MONEY">お金</string>
+    <string name="TEXT_NO">いいえ</string>
+    <string name="TEXT_POWER">パワー</string>
+    <string name="TEXT_PRICE">価格</string>
+    <string name="TEXT_REG">登録</string>
+    <string name="TEXT_RUNDIST">走行距離</string>
+    <string name="TEXT_SCORE">ポイント</string>
+    <string name="TEXT_SPEED">速度</string>
+    <string name="TEXT_TASK">タスク</string>
+    <string name="TEXT_TASK_ON_DISTANCE">遠隔トレーニングのタスク。</string>
+    <string name="TEXT_TRAIN">電車</string>
+    <string name="TEXT_VELOCITY_OF_RECOVERY">回復率</string>
+    <string name="TEXT_YES">はい</string>
+    <string name="TEXT_LEFT">左</string>
+    <string name="TEXT_RIGHT">右</string>
+    <string name="TEXT_FIRE">火</string>
+    <string name="TEXT_ON">オン</string>
+    <string name="TEXT_OFF">オフ</string>
+
+
+
+    <string name="TEXT_MINIMAL_RANG">最低ランク</string>
+    <string name="PRICE_FOR_IT">それの価格</string>
+    <string name="TEXT_LEVEL_UP">までレベルアップ</string>
+    <string name="HELP">ヘルプ</string>
+    <string name="USER_ALREADY_EXIST">ユーザーは既に作成されています!</string>
+    <string name="INCORRECT_PASSWORD_OR_LOGIN">ログインまたはパスワードが正しくありません!</string>
+    <string name="CAPTCHA_NOT_CORRECT">キャプチャが正しく入力されていません!</string>
+</resources>

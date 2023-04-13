@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/white"/>
+    <stroke android:width="6dip" android:color="@color/black" />
+    <corners
+
+        android:bottomRightRadius="@dimen/radius_input"
+        android:bottomLeftRadius="@dimen/radius_input"
+        android:topLeftRadius="@dimen/radius_input"
+        android:topRightRadius="@dimen/radius_input"/>
+
+
+    <gradient
+        android:angle="90"
+
+        android:centerColor="#faebd7"
+        android:endColor="#faebd7"
+        android:startColor="#faebd7"/>
+</shape>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:minHeight="16dp"
+    android:layout_marginTop="3dp"
+
+    tools:context=".battle.PlayerLoader.StylesFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <Button
+        android:id="@+id/styles_button"
+        android:layout_width="match_parent"
+        android:minHeight="16dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/styles"
+        app:backgroundTint="#2bd2e4"
+        android:text="i dodnt do stop"
+        android:textColor="@color/black"
+        android:textSize="10dp"
+      >
+
+
+    </Button>
+
+</RelativeLayout>

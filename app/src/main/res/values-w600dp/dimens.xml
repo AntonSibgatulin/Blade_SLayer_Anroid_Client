@@ -1,0 +1,16 @@
+<resources>
+    <dimen name="activity_horizontal_margin">48dp</dimen>
+    <dimen name="fab_margin">48dp</dimen>
+    <dimen name="width_tool_text">60dp</dimen>
+    <dimen name="height_for_line">210dp</dimen>
+    <dimen name="width_for_line">371dp</dimen>
+    <dimen name="translation1">120dp</dimen>
+    <dimen name="translation2">190dp</dimen>
+    <dimen name="translation3">270dp</dimen>
+
+    <dimen name="height_of_input">50dp</dimen>
+
+
+    <dimen name="width_login">400dp</dimen>
+    <dimen name="height_login">380dp</dimen>
+</resources>

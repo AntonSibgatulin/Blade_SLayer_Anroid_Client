@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+        <string name="app_name">恶魔砍刀</string>
+
+
+
+        <string name="ASQUIRED_LEVEL">获得的等级</string>
+        <string name="BUTTON_BUY_FOR">购买</string>
+        <string name="BUTTON_BUY_FOR_MONEY">用钱买</string>
+        <string name="BUTTON_CLOSE">关闭</string>
+        <string name="BUTTON_CREATE">创建</string>
+        <string name="BUTTON_LEVEL">级别</string>
+        <string name="BUTTON_LOCATION">地点</string>
+        <string name="BUTTON_LOGIN">登录</string>
+        <string name="BUTTON_MULTIPLAY">多人游戏</string>
+        <string name="BUTTON_PAUSE">暂停</string>
+        <string name="BUTTON_PLAY">播放</string>
+        <string name="BUTTON_RESUME">恢复</string>
+        <string name="BUTTON_UPGRADE">升级</string>
+        <string name="INPUT_LOGIN">登录</string>
+        <string name="INPUT_LOGIN_REG">创建登录</string>
+        <string name="INPUT_PASSWORD">密码</string>
+        <string name="INPUT_PASSWORD_REG">创建密码</string>
+        <string name="INVALID_DATA">用户名或密码无效！</string>
+        <string name="MAX_LEVEL">最大等级</string>
+        <string name="PURCHASE_SUCC">购买成功</string>
+        <string name="SHOP">店铺</string>
+        <string name="TEXT_COUNT">计数</string>
+        <string name="TEXT_ENERGY">能量</string>
+        <string name="TEXT_EXIT">退出</string>
+        <string name="TEXT_HEALTH">健康</string>
+        <string name="TEXT_JUMP">跳转</string>
+        <string name="TEXT_LOADING">加载中</string>
+        <string name="TEXT_LOGIN">登录</string>
+        <string name="TEXT_MAGICKEY">魔法卡</string>
+        <string name="TEXT_MONEY">钱</string>
+        <string name="TEXT_NO">否</string>
+        <string name="TEXT_POWER">电源</string>
+        <string name="TEXT_PRICE">价格</string>
+        <string name="TEXT_REG">注册</string>
+        <string name="TEXT_RUNDIST">跑步距离</string>
+        <string name="TEXT_SCORE">积分</string>
+        <string name="TEXT_SPEED">速度</string>
+        <string name="TEXT_TASK">任务</string>
+        <string name="TEXT_TASK_ON_DISTANCE">远程训练任务。</string>
+        <string name="TEXT_TRAIN">火车</string>
+        <string name="TEXT_VELOCITY_OF_RECOVERY">恢复率</string>
+        <string name="TEXT_YES">是</string>
+        <string name="TEXT_LEFT">左</string>
+        <string name="TEXT_RIGHT">右</string>
+        <string name="TEXT_FIRE">影响</string>
+        <string name="TEXT_ON">开启</string>
+        <string name="TEXT_OFF">关闭</string>
+
+
+
+        <string name="TEXT_MINIMAL_RANG">最低排名 - </string>
+        <string name="PRICE_FOR_IT">它的价格</string>
+        <string name="TEXT_LEVEL_UP">升级</string>
+        <string name="HELP">帮助</string>
+        <string name="USER_ALREADY_EXIST">用户已经创建！</string>
+        <string name="INCORRECT_PASSWORD_OR_LOGIN">登录名或密码无效！</string>
+        <string name="CAPTCHA_NOT_CORRECT">验证码输入错误！</string>
+
+
+</resources>
